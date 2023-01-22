@@ -94,6 +94,8 @@ const Form = () => {
         })
       );
       navigate("/home");
+    } else {
+      navigate("/");
     }
   };
 

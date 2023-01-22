@@ -32,7 +32,7 @@ const UserSchema = new mongoose.Schema(
       type: Array,
       default: [],
     },
-    Location: String,
+    location: String,
     occupation: String,
     viewedProfile: Number,
     impressions: Number,
